@@ -1,0 +1,13 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/lingeng/Desktop/C_Daily/cuda_work
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:164 (message):
+  Could NOT find CUDA (missing: CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS
+  CUDA_CUDART_LIBRARY)
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:445 (_FPHSA_FAILURE_MESSAGE)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/FindCUDA.cmake:1116 (find_package_handle_standard_args)
+  CMakeLists.txt:7 (FIND_PACKAGE)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/lingeng/Desktop/C_Daily/cuda_work/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/lingeng/Desktop/C_Daily/cuda_work/cmake-build-debug/CMakeFiles/CMakeError.log".

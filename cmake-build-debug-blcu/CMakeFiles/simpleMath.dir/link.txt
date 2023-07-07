@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/simpleMath.dir/cuda_c_ch4/simpleMath_generated_simpleMathAoS.cu.o  -o simpleMath /usr/local/cuda-10.1/lib64/libcudart_static.a -lpthread -ldl /usr/lib/x86_64-linux-gnu/librt.so 

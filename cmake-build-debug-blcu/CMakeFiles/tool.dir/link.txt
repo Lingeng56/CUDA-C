@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/tool.dir/tool.cpp.o  -o tool 

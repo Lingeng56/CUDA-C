@@ -1,0 +1,11 @@
+/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/CMakeFiles/rebuild_cache.dir
+/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/CMakeFiles/edit_cache.dir
+/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/CMakeFiles/tool.dir
+/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/CMakeFiles/sumArraysZeroCopy.dir
+/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/CMakeFiles/ad-census.dir
+/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/CMakeFiles/checkThreadIndex.dir
+/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/CMakeFiles/checkDevice.dir
+/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/CMakeFiles/simpleMath.dir
+/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/CMakeFiles/sumArraysOnGPU-timer.dir
+/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/CMakeFiles/nestedHello.dir
+/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/CMakeFiles/simpleDivergence.dir

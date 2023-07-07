@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cuda_work"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\cmake-3.15.0-Linux-x86_64\;CMake Files\..\cmake-3.15.0-Linux-x86_64\share\;CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\;CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\;CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\Platform\;CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\Compiler\;CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\Internal\;CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\FindCUDA\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tool">
+				<Option output="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/tool" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-10.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 tool"/>
+					<CompileFile command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tool/fast">
+				<Option output="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/tool" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-10.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 tool/fast"/>
+					<CompileFile command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sumArraysZeroCopy">
+				<Option output="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/sumArraysZeroCopy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-10.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 sumArraysZeroCopy"/>
+					<CompileFile command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sumArraysZeroCopy/fast">
+				<Option output="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/sumArraysZeroCopy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-10.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 sumArraysZeroCopy/fast"/>
+					<CompileFile command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ad-census">
+				<Option output="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/ad-census" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-10.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 ad-census"/>
+					<CompileFile command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ad-census/fast">
+				<Option output="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/ad-census" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-10.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 ad-census/fast"/>
+					<CompileFile command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="checkThreadIndex">
+				<Option output="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/checkThreadIndex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-10.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 checkThreadIndex"/>
+					<CompileFile command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="checkThreadIndex/fast">
+				<Option output="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/checkThreadIndex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-10.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 checkThreadIndex/fast"/>
+					<CompileFile command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="checkDevice">
+				<Option output="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/checkDevice" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-10.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 checkDevice"/>
+					<CompileFile command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="checkDevice/fast">
+				<Option output="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/checkDevice" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-10.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 checkDevice/fast"/>
+					<CompileFile command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleMath">
+				<Option output="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/simpleMath" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-10.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 simpleMath"/>
+					<CompileFile command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleMath/fast">
+				<Option output="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/simpleMath" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-10.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 simpleMath/fast"/>
+					<CompileFile command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sumArraysOnGPU-timer">
+				<Option output="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/sumArraysOnGPU-timer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-10.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 sumArraysOnGPU-timer"/>
+					<CompileFile command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sumArraysOnGPU-timer/fast">
+				<Option output="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/sumArraysOnGPU-timer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-10.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 sumArraysOnGPU-timer/fast"/>
+					<CompileFile command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nestedHello">
+				<Option output="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/nestedHello" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-10.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 nestedHello"/>
+					<CompileFile command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nestedHello/fast">
+				<Option output="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/nestedHello" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-10.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 nestedHello/fast"/>
+					<CompileFile command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleDivergence">
+				<Option output="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/simpleDivergence" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-10.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 simpleDivergence"/>
+					<CompileFile command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleDivergence/fast">
+				<Option output="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/simpleDivergence" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-10.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 simpleDivergence/fast"/>
+					<CompileFile command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j56 -f &quot;/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/CMakeFiles/ad-census.dir/cuda_c_ch1/ad-census_generated_main.cu.o">
+			<Option target="ad-census"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/CMakeFiles/checkDevice.dir/cuda_c_ch2/checkDevice_generated_checkDevice.cu.o">
+			<Option target="checkDevice"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/CMakeFiles/checkThreadIndex.dir/cuda_c_ch2/checkThreadIndex_generated_checkThreadIndex.cu.o">
+			<Option target="checkThreadIndex"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/CMakeFiles/nestedHello.dir/cuda_c_ch3/nestedHello_generated_nestedHello.cu.o">
+			<Option target="nestedHello"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/CMakeFiles/simpleDivergence.dir/cuda_c_ch3/simpleDivergence_generated_simpleDivergence.cu.o">
+			<Option target="simpleDivergence"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/CMakeFiles/simpleMath.dir/cuda_c_ch4/simpleMath_generated_simpleMathAoS.cu.o">
+			<Option target="simpleMath"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/CMakeFiles/sumArraysOnGPU-timer.dir/cuda_c_ch2/sumArraysOnGPU-timer_generated_sumArraysOnGPU-timer.cu.o">
+			<Option target="sumArraysOnGPU-timer"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/cmake-build-debug-blcu/CMakeFiles/sumArraysZeroCopy.dir/cuda_c_ch4/sumArraysZeroCopy_generated_sumArraysZeroCopy.cu.o">
+			<Option target="sumArraysZeroCopy"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/cuda_c_ch1/main.cu">
+			<Option target="ad-census"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/cuda_c_ch2/checkDevice.cu">
+			<Option target="checkDevice"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/cuda_c_ch2/checkThreadIndex.cu">
+			<Option target="checkThreadIndex"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/cuda_c_ch2/sumArraysOnGPU-timer.cu">
+			<Option target="sumArraysOnGPU-timer"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/cuda_c_ch3/nestedHello.cu">
+			<Option target="nestedHello"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/cuda_c_ch3/simpleDivergence.cu">
+			<Option target="simpleDivergence"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/cuda_c_ch4/simpleMathAoS.cu">
+			<Option target="simpleMath"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/cuda_c_ch4/sumArraysZeroCopy.cu">
+			<Option target="sumArraysZeroCopy"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/tool.cpp">
+			<Option target="tool"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/tool.h">
+			<Option target="tool"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/CMakeCInformation.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/CMakeCXXInformation.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/CMakeCommonLanguageInclude.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/CMakeFindCodeBlocks.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/CMakeGenericSystem.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/CMakeInitializeConfigs.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/CMakeLanguageInformation.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/CMakeSystemSpecificInformation.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/CMakeSystemSpecificInitialize.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/CheckCSourceCompiles.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/CheckIncludeFile.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/CheckLibraryExists.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/FindCUDA.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/FindPackageHandleStandardArgs.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/FindPackageMessage.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/FindThreads.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/ProcessorCount.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/Platform/Linux-GNU-C.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/Platform/Linux-GNU-CXX.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/Platform/Linux-GNU.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/Platform/Linux.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/Platform/UnixPaths.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/Compiler/CMakeCommonCompilerMacros.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/Compiler/GNU-C.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/Compiler/GNU-CXX.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/Compiler/GNU.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/Internal/CMakeCheckCompilerFlag.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\Internal\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/wl2020/workspace/cuda_work/../cmake-3.15.0-Linux-x86_64/share/cmake-3.15/Modules/FindCUDA/select_compute_arch.cmake">
+			<Option virtualFolder="CMake Files\..\cmake-3.15.0-Linux-x86_64\share\cmake-3.15\Modules\FindCUDA\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

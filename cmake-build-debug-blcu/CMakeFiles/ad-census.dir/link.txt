@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ad-census.dir/cuda_c_ch1/ad-census_generated_main.cu.o  -o ad-census /usr/local/cuda-10.1/lib64/libcudart_static.a -lpthread -ldl /usr/lib/x86_64-linux-gnu/librt.so 
